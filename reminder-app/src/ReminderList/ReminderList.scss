@@ -1,0 +1,26 @@
+//formatting container
+
+.main-reminder-container {
+    text-align: center;
+    width: 100%;
+    
+    
+}
+
+.reminder-container {
+    text-align: center;
+    width: 100%;
+}
+
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    
+}
+
+
+//grid layout class with 3 rows
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
